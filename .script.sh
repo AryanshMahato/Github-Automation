@@ -20,7 +20,8 @@ function create() {
   touch .gitignore
   touch .readme
   git init
-  git remote add origin git@github.com:AryanshMahato/$1
+  git remote add origin YOUR_SSH_ID/$1
+# SSH_ID example=> git@github.com:AryanshMahato
   git add .
   git commit -m "Initial Commit"
   git push origin master
